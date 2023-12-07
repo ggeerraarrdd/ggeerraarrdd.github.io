@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="585px"
+    height="360px" viewBox="-0.5 -0.5 585 360" style="background-color: rgb(255, 255, 255);">
+    <defs />
+    <g>
+        <rect x="0" y="0" width="585" height="360" fill="#efefef" stroke="none" pointer-events="all" />
+        <image x="59.5" y="135.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik01MjAtNjAwdi0yNDBoMzIwdjI0MEg1MjBaTTEyMC00NDB2LTQwMGgzMjB2NDAwSDEyMFptNDAwIDMyMHYtNDAwaDMyMHY0MDBINTIwWm0tNDAwIDB2LTI0MGgzMjB2MjQwSDEyMFptODAtNDAwaDE2MHYtMjQwSDIwMHYyNDBabTQwMCAzMjBoMTYwdi0yNDBINjAwdjI0MFptMC00ODBoMTYwdi04MEg2MDB2ODBaTTIwMC0yMDBoMTYwdi04MEgyMDB2ODBabTE2MC0zMjBabTI0MC0xNjBabTAgMjQwWk0zNjAtMjgwWiIvPjwvc3ZnPg=="
+            preserveAspectRatio="none" />
+        <image x="332.5" y="239.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Im0zMTMtNDQwIDIyNCAyMjQtNTcgNTYtMzIwLTMyMCAzMjAtMzIwIDU3IDU2LTIyNCAyMjRoNDg3djgwSDMxM1oiLz48L3N2Zz4="
+            preserveAspectRatio="none" />
+        <image x="196.5" y="239.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik0zMjAtMjQwaDMyMHYtODBIMzIwdjgwWm0wLTE2MGgzMjB2LTgwSDMyMHY4MFpNMjQwLTgwcS0zMyAwLTU2LjUtMjMuNVQxNjAtMTYwdi02NDBxMC0zMyAyMy41LTU2LjVUMjQwLTg4MGgzMjBsMjQwIDI0MHY0ODBxMCAzMy0yMy41IDU2LjVUNzIwLTgwSDI0MFptMjgwLTUyMHYtMjAwSDI0MHY2NDBoNDgwdi00NDBINTIwWk0yNDAtODAwdjIwMC0yMDAgNjQwLTY0MFoiLz48L3N2Zz4="
+            preserveAspectRatio="none" />
+        <image x="196.5" y="135.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik0yMDAtODBxLTMzIDAtNTYuNS0yMy41VDEyMC0xNjB2LTU2MHEwLTMzIDIzLjUtNTYuNVQyMDAtODAwaDQwdi04MGg4MHY4MGgzMjB2LTgwaDgwdjgwaDQwcTMzIDAgNTYuNSAyMy41VDg0MC03MjB2NTYwcTAgMzMtMjMuNSA1Ni41VDc2MC04MEgyMDBabTAtODBoNTYwdi00MDBIMjAwdjQwMFptMC00ODBoNTYwdi04MEgyMDB2ODBabTAgMHYtODAgODBabTgwIDI0MHYtODBoNDAwdjgwSDI4MFptMCAxNjB2LTgwaDI4MHY4MEgyODBaIi8+PC9zdmc+"
+            preserveAspectRatio="none" />
+        <image x="469.5" y="135.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik0wLTI0MHYtNjNxMC00MyA0NC03MHQxMTYtMjdxMTMgMCAyNSAuNXQyMyAyLjVxLTE0IDIxLTIxIDQ0dC03IDQ4djY1SDBabTI0MCAwdi02NXEwLTMyIDE3LjUtNTguNVQzMDctNDEwcTMyLTIwIDc2LjUtMzB0OTYuNS0xMHE1MyAwIDk3LjUgMTB0NzYuNSAzMHEzMiAyMCA0OSA0Ni41dDE3IDU4LjV2NjVIMjQwWm01NDAgMHYtNjVxMC0yNi02LjUtNDlUNzU0LTM5N3ExMS0yIDIyLjUtMi41dDIzLjUtLjVxNzIgMCAxMTYgMjYuNXQ0NCA3MC41djYzSDc4MFptLTQ1NS04MGgzMTFxLTEwLTIwLTU1LjUtMzVUNDgwLTM3MHEtNTUgMC0xMDAuNSAxNVQzMjUtMzIwWk0xNjAtNDQwcS0zMyAwLTU2LjUtMjMuNVQ4MC01MjBxMC0zNCAyMy41LTU3dDU2LjUtMjNxMzQgMCA1NyAyM3QyMyA1N3EwIDMzLTIzIDU2LjVUMTYwLTQ0MFptNjQwIDBxLTMzIDAtNTYuNS0yMy41VDcyMC01MjBxMC0zNCAyMy41LTU3dDU2LjUtMjNxMzQgMCA1NyAyM3QyMyA1N3EwIDMzLTIzIDU2LjVUODAwLTQ0MFptLTMyMC00MHEtNTAgMC04NS0zNXQtMzUtODVxMC01MSAzNS04NS41dDg1LTM0LjVxNTEgMCA4NS41IDM0LjVUNjAwLTYwMHEwIDUwLTM0LjUgODVUNDgwLTQ4MFptMC04MHExNyAwIDI4LjUtMTEuNVQ1MjAtNjAwcTAtMTctMTEuNS0yOC41VDQ4MC02NDBxLTE3IDAtMjguNSAxMS41VDQ0MC02MDBxMCAxNyAxMS41IDI4LjVUNDgwLTU2MFptMSAyNDBabS0xLTI4MFoiLz48L3N2Zz4="
+            preserveAspectRatio="none" />
+        <image x="59.5" y="239.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik0yMDAtMTIwcS0zMyAwLTU2LjUtMjMuNVQxMjAtMjAwdi01NjBxMC0zMyAyMy41LTU2LjVUMjAwLTg0MGg1NjBxMzMgMCA1Ni41IDIzLjVUODQwLTc2MHY1NjBxMCAzMy0yMy41IDU2LjVUNzYwLTEyMEgyMDBabTAtODBoNTYwdi01NjBIMjAwdjU2MFptNDAtODBoNDgwTDU3MC00ODAgNDUwLTMyMGwtOTAtMTIwLTEyMCAxNjBabS00MCA4MHYtNTYwIDU2MFoiLz48L3N2Zz4="
+            preserveAspectRatio="none" />
+        <image x="469.5" y="239.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik0yMDAtMTIwcS0zMyAwLTU2LjUtMjMuNVQxMjAtMjAwdi01NjBxMC0zMyAyMy41LTU2LjVUMjAwLTg0MGgyODB2ODBIMjAwdjU2MGgyODB2ODBIMjAwWm00NDAtMTYwLTU1LTU4IDEwMi0xMDJIMzYwdi04MGgzMjdMNTg1LTYyMmw1NS01OCAyMDAgMjAwLTIwMCAyMDBaIi8+PC9zdmc+"
+            preserveAspectRatio="none" />
+        <image x="332.5" y="135.5" width="55" height="55"
+            xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIGhlaWdodD0iMjQiPjxwYXRoIGQ9Ik0xNjAtMTIwdi03MjBoODB2ODBoODB2LTgwaDMyMHY4MGg4MHYtODBoODB2NzIwaC04MHYtODBoLTgwdjgwSDMyMHYtODBoLTgwdjgwaC04MFptODAtMTYwaDgwdi04MGgtODB2ODBabTAtMTYwaDgwdi04MGgtODB2ODBabTAtMTYwaDgwdi04MGgtODB2ODBabTQwMCAzMjBoODB2LTgwaC04MHY4MFptMC0xNjBoODB2LTgwaC04MHY4MFptMC0xNjBoODB2LTgwaC04MHY4MFpNNDAwLTIwMGgxNjB2LTU2MEg0MDB2NTYwWm0wLTU2MGgxNjAtMTYwWiIvPjwvc3ZnPg=="
+            preserveAspectRatio="none" />
+        <rect x="60" y="50" width="150" height="20" fill="none" stroke="none" pointer-events="all" />
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%"
+                    requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"
+                    style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml"
+                        style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 152px; height: 1px; padding-top: 60px; margin-left: 60px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); "
+                            style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div
+                                style="display: inline-block; font-size: 30px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                LAFSCMS</div>
+                        </div>
+                    </div>
+                </foreignObject><text x="60" y="69" fill="rgb(0, 0, 0)" font-family="Helvetica"
+                    font-size="30px">LAFSCMS</text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" /><a transform="translate(0,-5)"
+            xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank"><text
+                text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot display</text></a>
+    </switch>
+</svg>
