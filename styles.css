@@ -8,6 +8,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .modules {
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 
 @media only screen 
@@ -28,12 +32,14 @@
     font-size: 1.5em !important;
   }
 
+  .modules {
+    grid-template-columns: 1fr;
+    font-size: 1.5em !important;
+  }
+
 }
 
 
-html {
-  font-size: 14px;
-}
 
 body {
   margin: 0;
@@ -42,13 +48,173 @@ body {
   background-color: white;
   color: #222;
   -webkit-font-smoothing: antialiased;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
 }
 
+
+
+/* CONTAINER --- RIGHT - MAIN - LEFT */
+.container {
+  margin: 0;
+  padding: 0 20px 150px 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+.left {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* CONTAINER - MAIN - header */
+
+.header {
+  margin: 0 0 200px 0;
+  padding: 0;
+}
+
+.header-top {
+  margin: 0;
+  padding: 20px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-top-left {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top-right {
+  margin: 0;
+  padding: 0;
+}
+
+.header-bottom {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* CONTAINER - MAIN - body */
+
+.body {
+  margin: 0 0 200px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.modules {
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  height: auto;
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 35px;
+}
+
+.modules-one-col {
+  grid-template-columns: 1fr !important; 
+  grid-gap: 0px !important;
+}
+
+.modules-type-intro {
+  margin: 20px 0 225px 0;
+  padding: 0;
+}
+
+.module {
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
+  height: auto;
+}
+
+.module-heading {
+  margin: 0;
+  padding: 0 0 15px 0;
+  font-weight: 800;
+}
+
+.module img {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.module-links {
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #96969d;
+}
+
+.module-tags {
+  margin: 5px 0 5px 0;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  border-width: 0;
+  font-size: 12px;
+  background-color: #efefef;
+  color: #222;
+  white-space: nowrap;
+}
+
+.module-label {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-style: italic;
+}
+
+
+/* CONTAINER - MAIN - footer */
+
+.footer {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+/* html tags */
+
 p {
   margin: 0;
   padding: 0 0 20px 0;
+}
+
+ul {
+  list-style-position: outside;
+  margin: 0;
+  padding-left: 40px;
 }
 
 a, a:visited {
@@ -62,126 +228,3 @@ a:hover {
   text-decoration: none;
   border-bottom: 1px #222 dotted;
 }
-
-
-
-
-
-.container {
-  margin: 0;
-  padding: 0 20px 150px 20px;
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.main {
-  margin: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-}
-
-.navbar {
-  margin: 0;
-  padding: 20px 0 10px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.navbar-bottom {
-  margin: 0;
-  padding: 0 0 200px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.intro {
-  margin: 0;
-  padding: 0 0 50px 0;
-  max-width: 1200px;
-}
-
-
-
-
-.projects {
-  margin: 0;
-  padding: 0;
-  max-width: 1200px;
-  height: auto;
-  display: grid;
-  grid-template-rows: auto;
-  grid-gap: 30px;
-}
-
-
-
-
-
-.project-info {
-  margin: 0;
-  padding: 0;
-  max-width: 1200px;
-  height: auto;
-  display: grid;
-  grid-template-rows: auto;
-  grid-gap: 30px;
-}
-
-.project {
-  margin: 0;
-  padding: 0 0 25px 0;
-  max-width: 600px;
-  height: auto;
-}
-
-.project img {
-  margin: 6px 0 0 0;
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-}
-
-.project-info {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-
-.project-top {
-  background-color: #efefef;
-}
-
-
-.tags {
-  margin: 5px 0 5px 0;
-  padding: 5px 15px 5px 15px;
-  border-radius: 20px;
-  border-width: 0;
-  font-size: 12px;
-  background-color: #efefef;
-  color: #222;
-  white-space: nowrap;
-}
- 
-ul {
-  list-style-position: outside;
-  margin: 0;
-  padding-left: 40px;
-}
-
-.heading {
-  margin: 0;
-  padding: 0 0 15px 0;
-  font-weight: 800;
-}
-
-  
