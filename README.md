@@ -6,7 +6,7 @@ An online portfolio of student projects
 
 Select projects completed during my graduate studies in [Information Systems](https://www.cdm.depaul.edu/academics/Pages/MS-in-Information-Systems.aspx) at [DePaul University](https://www.depaul.edu/Pages/default.aspx).
 
-![GGEERRAARRDD](/images/ggeerraarrdd_01.png)
+![GGEERRAARRDD](/images/ggeerraarrdd_01.png)*Image created using [Portfoliofy](https://github.com/ggeerraarrdd/portfoliofy).*
 
 More screenshots below.
 
