@@ -743,6 +743,28 @@ and (min-width: 961px) {
     
     /* CONTAINER - MAIN - header */
     
+    .header-modules {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      grid-gap: 35px;
+    }
+    
+    .header-module {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: auto;
+    }
+    
+    .header-module:last-child {
+      order: -1; /* Makes the last module appear first */
+    }
+    
     .header {
       margin: 0 0 400px 0; /* smartphone change */
       padding: 0;
