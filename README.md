@@ -32,21 +32,38 @@ An online portfolio of projects
 
 ## Description
 
-Select projects completed during my graduate studies in [Computer Science](https://www.cdm.depaul.edu/academics/Pages/MS-in-Computer-Science.aspx) at [DePaul University](https://www.depaul.edu/Pages/default.aspx).
+*GGEERRAARRDD* is an online portfolio showcasing select projects completed during my graduate studies in [Computer Science](https://www.cdm.depaul.edu/academics/Pages/MS-in-Computer-Science.aspx) at [DePaul University](https://www.depaul.edu/Pages/default.aspx). It is hosted on [GitHub Pages](https://pages.github.com/).
 
 ![GGEERRAARRDD](docs/ggeerraarrdd_01.png)*Image created using [Portfoliofy](https://github.com/ggeerraarrdd/portfoliofy).*
 
 ## Target Users
 
-* TBD
+*GGEERRAARRDD* is intended for:
+
+* **Potential employers and recruiters** looking to evaluate design and technical capabilities
+* **Self-guided learners** seeking portfolio inspiration and examples
+* **GitHub users** looking for reference implementations of GitHub Pages
 
 ## Features
 
-* TBD
+* 📂 **Project Portfolio** - Collection of projects demonstrating coding and design abilities
+* 🖥️ **GitHub Pages Demo** - Deployed example of a basic website
 
 ## Project Structure
 
-* TBD
+```text
+ggeerraarrdd/
+│
+├── portfolio/
+│   └── assets/
+│
+├── index.html
+│
+├── docs/
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 ## Quick Start
 

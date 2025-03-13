@@ -704,6 +704,7 @@ and (min-width: 961px) {
     .header-bottom {
       margin: 0;
       padding: 0;
+      font-size: 1.4em; /* smartphone change - added */
       display: flex;
       flex-direction: row;
       justify-content: space-between;
