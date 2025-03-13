@@ -49,7 +49,33 @@ and (min-width: 961px) {
   
   
   /* CONTAINER - MAIN - header */
+
+  .header-modules {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 35px;
+  }
   
+  .header-module {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .header-module:first-child {
+    justify-self: start;
+  }
+
+  .header-module:last-child {
+    justify-self: end;
+  }
+
   .header {
     margin: 0 0 300px 0;
     padding: 0;
@@ -58,9 +84,6 @@ and (min-width: 961px) {
   .header-top {
     margin: 0;
     padding: 20px 0 10px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
   
   .header-top-left {
@@ -261,6 +284,28 @@ and (min-width: 961px) {
     
     /* CONTAINER - MAIN - header */
     
+    .header-modules {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      grid-gap: 35px;
+    }
+    
+    .header-module {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: auto;
+    }
+    
+    .header-module:last-child {
+      order: -1; /* Makes the last module appear first */
+    }
+    
     .header {
       margin: 0 0 300px 0;
       padding: 0;
@@ -434,7 +479,6 @@ and (min-width: 961px) {
     }
     
     
-    
     /* CONTAINER --- RIGHT - MAIN - LEFT */
     .container {
       margin: 0;
@@ -467,6 +511,28 @@ and (min-width: 961px) {
     
     /* CONTAINER - MAIN - header */
     
+    .header-modules {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      grid-gap: 35px;
+    }
+    
+    .header-module {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: auto;
+    }
+    
+    .header-module:last-child {
+      order: -1; /* Makes the last module appear first */
+    }
+
     .header {
       margin: 0 0 400px 0; /* smartphone change */
       padding: 0;
