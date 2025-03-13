@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8DXBTRN659"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8DXBTRN659');
+    </script>
+    <meta name="keywords"
+        content="projects, apps, websites, python, flask, database, postgres, cms, information, systems">
+    <meta name="description" content="A portfolio of projects">
+    <meta name="robots" content="all">
+    <meta content="en_US" property="og:locale">
+    <meta content="ggeerraarrdd" property="og:site_name">
+    <meta content="website" property="og:type">
+    <meta content="https://ggeerraarrdd.github.io/" property="og:url">
+    <meta content="Information Systems Projects" property="og:title">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link href="assets/styles/styles.css" rel="stylesheet">
+    <title>ggeerraarrdd - portfoliofy</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+        </div>
+        <div class="main">
+
+            <!-- Header -->
+            <div class="header">
+                <!-- Header - Top -->
+                <div class="header-top">
+                    <!-- Header - Top - Left -->
+                    <div class="header-top-left">
+                        hello world! my name is gerard.
+                    </div>
+                    <!-- Header - Top - Right -->
+                    <div class="header-top-right">
+                        <a href="/">home</a> &nbsp; | &nbsp;
+                        <a href="https://www.linkedin.com/in/gerardbullalayao/">linkedin</a> &nbsp;
+                        <a href="https://github.com/ggeerraarrdd">github</a>
+                    </div>
+                </div>
+
+                <!-- Header - Bottom -->
+                <div class="header-bottom">
+                    <div>
+                        welcome to my online portfolio of projects.
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header - End -->
+
+
+            <!-- Body -->
+            <div class="body">
+
+                <div class="modules modules-one-col">
+
+                    <div style="padding-bottom: 10px;">
+                        portfoliofy<br>
+                        a rest api to generate portfolio-ready screenshots of your awesome web projects
+                    </div>
+
+                    <img src="assets/images/portfoliofy/portfoliofy_01.png" width="100%">
+
+
+                </div>
+
+                <div class="modules modules-type-intro">
+
+                    <div class="module">
+
+                        <div class="module-heading">About</div>
+                        <p>
+                            Once a web project is done, it's time to document your hard work and show it off.
+                            <i>Portfoliofy</i> makes that process easier by doing all the screenshots for you and
+                            assembling
+                            them together into configurable, portfolio-ready files through a RESTful API interface.
+                        </p>
+
+                        <br><br>
+
+                        <div class="module-heading">Target Users</div>
+                        <p>
+                            <i>Portfoliofy</i> is intended for:
+                        <ul>
+                            <li>
+                                <b>Student and professional web developers</b> building portfolios to showcase their web
+                                development projects.
+                            </li>
+                            <li>
+                                <b>Self-directed learners</b> looking to learn Python, in general, and RESTful API
+                                development using FastAPI, specifically, within the context of building a web screenshot
+                                generator and image manipulation application.
+
+                            </li>
+                        </ul>
+                        </p>
+
+                        <br><br>
+
+                        <div class="module-heading">Features</div>
+
+                        <p>
+                            <i>Portfoliofy</i> v3.0.0-beta.3 exposes RESTful API endpoints that process HTTP requests for the
+                            following <b>OUTPUT</b> types, each offering configurable visual stylings, document layouts and
+                            output formats.
+
+                            <ul>
+                                <li><b>OUTPUT_MAIN</b>
+                                    <ul>
+                                        <li>Eye-catching composite of viewport-specific screenshots at multiple device
+                                            resolutions (desktop, laptop, tablet, smartphone)</li>
+                                        <li>Each screenshot overlaid on a stylized device mockup</li>
+                                        <li>Supported formats: PNG, JPEG, BMP, TIFF, PDF</li>
+                                    </ul>
+                                </li>
+                                <li><b>OUTPUT_BROWSER</b>
+                                    <ul>
+                                        <li>Viewport-specific screenshot at desktop resolution, overlaid on a stylized
+                                            browser mockup</li>
+                                        <li>Supported formats: PNG, JPEG, BMP, TIFF, PDF</li>
+                                    </ul>
+                                </li>
+                                <li><b>OUTPUT_MOBILES</b>
+                                    <ul>
+                                        <li>Side-by-side composite of viewport-specific screenshots at tablet and smartphone
+                                            resolutions</li>
+                                        <li>Each screenshot overlaid on a stylized device mockup</li>
+                                        <li>Supported formats: PNG, JPEG, BMP, TIFF, PDF</li>
+                                    </ul>
+                                </li>
+                                <li><b>OUTPUT_FULL</b>
+                                    <ul>
+                                        <li>Full-page screenshot of the entire webpage content from top to bottom, overlaid
+                                            on a stylized
+                                            browser mockup</li>
+                                        <li>Supported formats: PNG, JPEG, BMP, TIFF</li>
+                                    </ul>
+                                </li>
+                                <li><b>OUTPUT_MOVIE</b>
+                                    <ul>
+                                        <li>A scroll animation video of a full-page screenshot, framed by a stylized browser
+                                            mockup</li>
+                                        <li>Supported format: MP4</li>
+                                    </ul>
+                                </li>
+                                <li><b>OUTPUT_SCREENSHOTS</b>
+                                    <ul>
+                                        <li>Plain, viewport-specific screenshots at the following resolutions:</li>
+                                        <ul>
+                                            <li>Desktop (2160x1360)</li>
+                                            <li>Laptop (1440x900)</li>
+                                            <li>Tablet (768x1024)</li>
+                                            <li>Smartphone (230x490)</li>
+                                        </ul>
+                                        <li>Plain, full-page screenshot of the entire webpage content from top to bottom
+                                        </li>
+                                        <li>Supported formats: PNG, JPEG, BMP, TIFF, PDF (except for full-page)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+
+                        <p>
+                            New features development is ongoing.
+                        </p>
+
+                        <br><br>
+
+                        <div class="module-heading">Initial Release</div>
+                        <p>
+                            The <a href="https://github.com/ggeerraarrdd/portfoliofy/releases/tag/v1.0.0">initial
+                                release</a>
+                            of
+                            <i>Portfoliofy</i> was submitted as the final project for <a
+                                href="https://cs50.harvard.edu/python/2022/">CS50P: Introduction to Programming with
+                                Python</a>
+                            (HarvardX, 2023).
+                        </p>
+
+                    </div>
+                    <div class="module module-pad-extra">
+
+                        <span style="color: #96969d;">
+                            website &nbsp; | &nbsp;
+                            <a href="https://github.com/ggeerraarrdd/portfoliofy">github</a> &nbsp; | &nbsp;
+                            <a href="https://github.com/ggeerraarrdd/portfoliofy/blob/main/LICENSE">mit license</a>  &nbsp; | &nbsp;
+                            updated 2025-03-13
+                        </span>
+
+                        <br>
+                        <br>
+
+                        <form>
+                            <button class="module-tags" disabled>
+                                fastapi
+                            </button>
+                            <button class="module-tags" disabled>
+                                python
+                            </button>
+                            <button class="module-tags" disabled>
+                                rest api
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="modules modules-one-col">
+
+                    <div class="module-label">
+                        (Top to bottom: Browser, mobiles, full and video sample output files.)
+                    </div>
+
+                    <img src="assets/images/portfoliofy/portfoliofy_02.png" width="100%">
+                    <br><br>
+
+                </div>
+
+                <div class="modules modules-one-col">
+
+                    <img src="assets/images/portfoliofy/portfoliofy_03.png" width="100%">
+
+                </div>
+
+                <div class="modules modules-one-col">
+
+                    <img src="assets/images/portfoliofy/portfoliofy_04.png" width="100%">
+
+                </div>
+
+                <div class="modules modules-one-col">
+
+                    <video width="100%" height="auto" controls>
+                        <source src="assets/images/portfoliofy/portfoliofy_05.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                </div>
+
+            </div>
+            <!-- Body - End -->
+
+
+            <!-- Footer -->
+            <div class="footer">
+                <a href="/">home</a>
+            </div>
+            <!-- Footer - End -->
+
+        </div>
+        <div class="right">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
