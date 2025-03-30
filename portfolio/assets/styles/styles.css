@@ -108,7 +108,7 @@ and (min-width: 961px) {
   /* CONTAINER - MAIN - body */
   
   .body {
-    margin: 0 0 200px 0;
+    margin: 0 0 250px 0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -341,7 +341,7 @@ and (min-width: 961px) {
     /* CONTAINER - MAIN - body */
     
     .body {
-      margin: 0 0 200px 0;
+      margin: 0 0 250px 0;
       padding: 0;
       display: flex;
       flex-direction: column;
@@ -531,6 +531,7 @@ and (min-width: 961px) {
     
     .header-module:last-child {
       order: -1; /* Makes the last module appear first */
+      justify-self: start;
     }
 
     .header {
@@ -568,7 +569,7 @@ and (min-width: 961px) {
     /* CONTAINER - MAIN - body */
     
     .body {
-      margin: 0 0 200px 0;
+      margin: 0 0 250px 0;
       padding: 0;
       display: flex;
       flex-direction: column;
@@ -802,7 +803,7 @@ and (min-width: 961px) {
     /* CONTAINER - MAIN - body */
     
     .body {
-      margin: 0 0 200px 0;
+      margin: 0 0 250px 0;
       padding: 0;
       display: flex;
       flex-direction: column;
