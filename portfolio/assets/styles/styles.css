@@ -764,6 +764,7 @@ and (min-width: 961px) {
     
     .header-module:last-child {
       order: -1; /* Makes the last module appear first */
+      justify-self: start;
     }
     
     .header {
